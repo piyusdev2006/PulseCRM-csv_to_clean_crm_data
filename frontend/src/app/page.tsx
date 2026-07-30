@@ -180,7 +180,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2">
                   <h1 className="text-base font-bold text-[var(--text-main)] tracking-tight">
-                    GrowEasy
+                    PulseCRM
                   </h1>
                   <ResendBadge variant="emerald">AI Importer</ResendBadge>
                 </div>
@@ -223,7 +223,7 @@ export default function Home() {
 
           {/* Views */}
           <AnimatePresence mode="wait">
-            {/* Step 1: Upload Page (Light & Dark Theme Compatible) */}
+            {/* Step 1: Upload Page */}
             {currentStep === 'upload' && (
               <motion.div
                 key="upload"
@@ -242,7 +242,7 @@ export default function Home() {
                   </ResendBadge>
 
                   <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[var(--text-main)] tracking-tight leading-[1.12]">
-                    Import any CSV to GrowEasy CRM
+                    Import any CSV to PulseCRM
                   </h2>
 
                   <p className="text-sm sm:text-base text-[var(--text-muted)] leading-relaxed max-w-xl">
@@ -395,7 +395,7 @@ export default function Home() {
                       CRM Import Dashboard
                     </h2>
                     <p className="text-xs text-[var(--text-muted)] mt-0.5">
-                      Structured lead records mapped to GrowEasy CRM format.
+                      Structured lead records mapped to PulseCRM format.
                     </p>
                   </div>
 
@@ -420,7 +420,7 @@ export default function Home() {
       <footer className="w-full border-t border-[var(--border-subtle)] bg-[var(--bg-canvas)] py-6 relative z-10">
         <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[var(--text-muted)]">
           <div className="flex items-center gap-2">
-            <span className="font-semibold text-[var(--text-main)]">GrowEasy CRM</span>
+            <span className="font-semibold text-[var(--text-main)]">PulseCRM AI</span>
             <span>•</span>
             <span>AI-Powered CSV Importer</span>
           </div>

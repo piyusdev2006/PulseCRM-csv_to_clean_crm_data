@@ -1,4 +1,4 @@
-# 🚀 GrowEasy AI-Powered CSV Importer
+# 🚀 PulseCRM AI-Powered CSV Importer
 
 An intelligent CSV importer that uses AI (Google Gemini) to automatically map and extract CRM lead information from **any** CSV format — Facebook Lead Exports, Google Ads, Real Estate CRMs, manually created spreadsheets, and more.
 

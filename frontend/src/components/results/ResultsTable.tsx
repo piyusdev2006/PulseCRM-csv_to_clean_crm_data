@@ -259,7 +259,7 @@ export function ResultsTable({ records, skipped }: ResultsTableProps) {
     if (activeTab === 'imported') {
       downloadCSV(
         records as unknown as Record<string, string>[],
-        `groweasy-crm-imported-${new Date().toISOString().slice(0, 10)}.csv`
+        `pulsecrm-imported-${new Date().toISOString().slice(0, 10)}.csv`
       );
     } else {
       const exportData = skipped.map((s) => ({
@@ -269,7 +269,7 @@ export function ResultsTable({ records, skipped }: ResultsTableProps) {
       }));
       downloadCSV(
         exportData,
-        `groweasy-crm-skipped-${new Date().toISOString().slice(0, 10)}.csv`
+        `pulsecrm-skipped-${new Date().toISOString().slice(0, 10)}.csv`
       );
     }
   };
@@ -282,7 +282,7 @@ export function ResultsTable({ records, skipped }: ResultsTableProps) {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `groweasy-crm-${activeTab}-${new Date().toISOString().slice(0, 10)}.json`;
+    a.download = `pulsecrm-${activeTab}-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };

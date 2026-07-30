@@ -1,20 +1,12 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import { Toaster } from 'sonner';
-import { ThemeProvider } from '@/components/ui/ThemeToggle';
 import './globals.css';
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-});
+import { ThemeProvider } from '@/components/ui/ThemeToggle';
+import { Toaster } from 'sonner';
 
 export const metadata: Metadata = {
-  title: 'GrowEasy CSV Importer',
-  description: 'AI-powered CSV importer for GrowEasy CRM',
-  icons: {
-    icon: '/favicon.ico',
-  },
+  title: 'PulseCRM AI - Intelligent CSV Importer',
+  description:
+    'AI-powered CSV importer that uses Google Gemini 2.0 Flash to automatically map and extract CRM lead data from any spreadsheet format.',
 };
 
 export default function RootLayout({
@@ -24,21 +16,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.variable} font-sans antialiased`}>
+      <body className="antialiased min-h-screen bg-[var(--bg-canvas)] text-[var(--text-main)] transition-colors duration-200">
         <ThemeProvider>
           {children}
           <Toaster
-            position="bottom-right"
+            position="top-right"
             toastOptions={{
               style: {
-                background: 'var(--bg-secondary)',
-                color: 'var(--text-primary)',
-                border: '1px solid var(--border-color)',
-                backdropFilter: 'blur(12px)',
+                background: 'var(--bg-card)',
+                color: 'var(--text-main)',
+                border: '1px solid var(--border-subtle)',
               },
             }}
-            richColors
-            closeButton
           />
         </ThemeProvider>
       </body>
