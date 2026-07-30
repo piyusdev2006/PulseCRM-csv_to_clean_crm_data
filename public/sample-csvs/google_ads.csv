@@ -1,0 +1,11 @@
+Campaign,Ad Group,First Name,Last Name,Email Address,Phone Number,Country,City,Submission Date,Form Type,Lead Quality Score,Keyword,Device
+Search - Real Estate,Mumbai Properties,Suresh,Iyer,suresh.iyer@gmail.com,9876001122,India,Mumbai,2026-06-01 10:00:00,Lead Form Extension,High,buy apartment mumbai,Mobile
+Search - Real Estate,Mumbai Properties,Lakshmi,Nair,lakshmi.nair@yahoo.com,9876001133,India,Mumbai,2026-06-01 10:30:00,Lead Form Extension,Medium,flat in andheri,Desktop
+Display - Investment,Property Investment,Arjun,Rao,arjun.rao@outlook.com,9876001144,India,Bangalore,2026-06-02 14:00:00,Contact Form,High,real estate investment,Tablet
+Search - Commercial,Office Space,Meera,Sharma,meera.sharma@techstartup.com,9876001155,India,Pune,2026-06-02 16:30:00,Lead Form Extension,Low,coworking space pune,Mobile
+Display - Luxury,Luxury Villas,Vikram,Malhotra,vikram.m@enterprise.co.in,9876001166,India,Delhi,2026-06-03 09:15:00,Contact Form,High,luxury villa delhi ncr,Desktop
+Search - Plots,Land Investment,Neha,Deshmukh,neha.d@gmail.com,9876001177,India,Nagpur,2026-06-03 11:00:00,Lead Form Extension,Medium,residential plots nagpur,Mobile
+Display - Apartment,2BHK Offers,Ravi,Prasad,,India,Hyderabad,2026-06-04 08:30:00,Contact Form,Low,2bhk flat hyderabad,Mobile
+Search - Real Estate,Chennai Properties,Divya,Krishnan,divya.k@gmail.com,9876001199,India,Chennai,2026-06-04 12:00:00,Lead Form Extension,High,apartment in omr chennai,Desktop
+Display - Investment,NRI Investment,Sanjay,Gupta,sanjay.gupta@usmail.com,+14155551234,United States,San Francisco,2026-06-05 03:00:00,Contact Form,Medium,india property investment nri,Mobile
+Search - Budget,Affordable Housing,Pooja,Verma,pooja.v@gmail.com,9876001211,India,Jaipur,2026-06-05 17:45:00,Lead Form Extension,High,affordable flat jaipur,Desktop
