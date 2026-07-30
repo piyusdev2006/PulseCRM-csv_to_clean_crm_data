@@ -1,5 +1,5 @@
 # Backend
-GEMINI_API_KEY=AIzaSyA8K1DofStyM1vcuOkh70s5m6PP4yQGcDA || AIzaSyCC4eLdkdn0AFeE-d34Ohd7NkxChY6dLEc
+GEMINI_API_KEY=""
 GEMINI_MODEL=gemini-2.0-flash
 PORT=3001
 NODE_ENV=development
