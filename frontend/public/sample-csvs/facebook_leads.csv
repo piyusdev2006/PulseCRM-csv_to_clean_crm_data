@@ -1,0 +1,11 @@
+id,full_name,email,phone_number,city,ad_name,form_name,created_time,platform,ad_set_name,campaign_name,is_organic
+1,Rahul Sharma,rahul.sharma@gmail.com,+919876543210,Mumbai,Property Investment Ad,Lead Generation Form,2026-05-10 09:30:00,facebook,Mumbai_Audience_25_45,Real Estate Mumbai Q2,false
+2,Priya Mehta,priya.mehta@yahoo.com,+919123456789,Pune,Home Loan Offer,Contact Us Form,2026-05-10 10:15:00,facebook,Pune_FirstTimeBuyers,Home Loans Pune,false
+3,Amit Patel,amit.p@outlook.com,+919988776655,Ahmedabad,2BHK Flat Deal,Property Inquiry,2026-05-11 14:20:00,facebook,Gujarat_Investors,Real Estate Gujarat,false
+4,Sneha Reddy,sneha.reddy@gmail.com,+918877665544,Hyderabad,Premium Villa Launch,Villa Booking Form,2026-05-11 16:45:00,facebook,Hyderabad_HNI,Luxury Villas Hyderabad,false
+5,Mohammed Khan,m.khan@hotmail.com,+917766554433,Bangalore,Tech Park Office Space,Office Inquiry,2026-05-12 08:00:00,facebook,Bangalore_Business,Commercial Spaces BLR,false
+6,Kavita Joshi,,+919654321098,Delhi,Budget Apartment Sale,Quick Inquiry,2026-05-12 11:30:00,facebook,Delhi_Budget,Affordable Housing Delhi,true
+7,Deepak Gupta,deepak.g@gmail.com,,Noida,3BHK Premium Flat,Premium Lead Form,2026-05-13 09:00:00,facebook,NCR_Premium,Premium Flats NCR,false
+8,Ananya Singh,ananya@techcorp.com,+919012345678,Gurgaon,Smart City Plots,Plot Booking,2026-05-13 12:30:00,facebook,Haryana_Plots,Smart City Gurgaon,false
+9,Rajesh Kumar,rajesh.k@gmail.com,+918901234567,Chennai,Sea View Apartment,Apartment Form,2026-05-14 07:45:00,facebook,Chennai_SeaView,Coastal Living Chennai,false
+10,Fatima Begum,fatima.b@gmail.com,+917890123456,Kolkata,Heritage Property,Heritage Interest Form,2026-05-14 15:00:00,facebook,Kolkata_Heritage,Heritage Homes Kolkata,false
